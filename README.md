@@ -8,10 +8,10 @@ docker run --rm turnes/fullcyle2-desafio-docker-go
 
 ## Build
 ```bash
-docker build --rm -t turnes/fullcyle2-desafio-docker-go .
+docker build --rm -t turnes/fullcyle2-desafio-docker-go:latest .
 ```
 
 ## Upload image to docker hub
 ```bash
-docker push turnes/fullcyle2-desafio-docker-go
+docker push turnes/fullcyle2-desafio-docker-go:latest
 ```
